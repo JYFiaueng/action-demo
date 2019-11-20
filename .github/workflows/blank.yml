@@ -16,5 +16,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
         BASE_BRANCH: master
         BRANCH: gh-pages
-        FOLDER: www
-        BUILD_SCRIPT: echo "(✧∇✧)╯╰(✧∇✧)̣"
+        FOLDER: build
+        BUILD_SCRIPT: mkdir build && mv index.html build/index.html
