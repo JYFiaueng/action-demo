@@ -17,4 +17,4 @@ jobs:
         BASE_BRANCH: master
         BRANCH: gh-pages
         FOLDER: build
-        BUILD_SCRIPT: mkdir build && mv index.html build/index.html
+        BUILD_SCRIPT: mkdir build && cp www/* build
